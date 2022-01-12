@@ -190,7 +190,7 @@ height: 5vh; */
 top: 714px; */
   background: #d7e021;
   width: 20vw;
-  height: 5vh;
+  height: 10vh;
   text-transform: capitalize;
   text-align: center;
   font-family: Montserrat;
@@ -239,7 +239,7 @@ top: 714px; */
   }
   .home .contents .idea a {
     width: 50vw;
-    height: 5vh;
+    height: 7vh;
     /* padding-bottom: 0.3rem; */
     text-align: center;
     font-size: 1rem;
