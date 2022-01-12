@@ -36,7 +36,7 @@ nav .links li {
 nav .links a {
   text-decoration: none;
   color: #000000;
-  font-size: 100%;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: capitalize;
   transition: 0.7s ease;
@@ -109,6 +109,8 @@ margin: 0.5rem 0.5rem ; */
   }
   nav .links.active {
     left: 0;
+    /* -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; */
   }
   nav .links #contact {
     background-color: #089542;
@@ -155,7 +157,6 @@ margin: 0.5rem 0.5rem ; */
   font-style: normal;
   font-weight: 600;
   font-size: 2.5rem;
-  float: left;
   /* line-height: 74px; */
 
   color: #089542;
@@ -170,23 +171,36 @@ margin: 0.5rem 0.5rem ; */
   font-weight: 600;
 }
 .home .contents .idea {
-  width: 20vw;
-  height: 10vh;
-  background: #d7e021;
-  border-radius: 7px;
+  width: 100vw;
+  height: 20vh;
+  /* left: 111px;
+top: 692px; */
+
+  border-radius: 7.20896px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem;
+margin-right: 30rem; */
 }
 .home .contents .idea a {
+  /* width: 5vw;
+height: 5vh; */
+  /* left: 210px;
+top: 714px; */
+  background: #d7e021;
+  width: 20vw;
+  height: 5vh;
   text-transform: capitalize;
+  text-align: center;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 1.2rem;
+  /* line-height: 32px; */
   color: #055a28;
   text-decoration: none;
+  padding-top: 1rem;
 }
 .home .contents .idea a:hover {
   color: #ee5cee;
@@ -199,29 +213,35 @@ margin: 0.5rem 0.5rem ; */
   height: 500px;
   width: 45%;
   top: 100vh;
-  float: left;
 }
-
-@media screen and (max-width:380px) {
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
   .home .robot {
     height: 300px;
-    width: 100%;
   }
   .home .contents {
-    top: 50vh;
-    width: 100%;
+    justify-content: space-evenly;
+    margin: 1rem 0;
   }
-  .home .contents .main{
-    font-size: 1rem;
+  .home .contents .main {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
   }
-  .home .contents .sub{
+  .home .contents .sub {
     font-size: 0.8rem;
   }
-  .home .contents .idea{
-    margin-right: 0;
-    width: 100%;
+  .home .contents .idea {
+    height: 10vh;
   }
-    .home .contents .idea a{
-        font-size: 0.8rem;
-    }
+  .home .contents .idea a {
+    width: 50vw;
+    height: 5vh;
+    /* padding-bottom: 0.3rem; */
+    text-align: center;
+    font-size: 1rem;
+  }
 }
