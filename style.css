@@ -31,7 +31,7 @@ nav .links {
   padding-top: 0.5rem;
 }
 nav .links li {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 nav .links a {
   text-decoration: none;
@@ -76,7 +76,7 @@ margin: 0.5rem 0.5rem ; */
     width: 65vw;
   }
   nav .links li {
-    padding: 0.5rem;
+    padding: 0.3rem;
   }
   nav .links li a {
     font-size: 0.8rem;
@@ -101,7 +101,7 @@ margin: 0.5rem 0.5rem ; */
     transition: 0.5s ease-in;
   }
   nav .links li {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
   }
   nav .links li a {
     font-size: 1.2rem;
@@ -225,14 +225,14 @@ top: 714px; */
   }
   .home .contents {
     justify-content: space-evenly;
-    margin: 1rem 0;
+    margin: 0.7rem 0;
   }
   .home .contents .main {
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    padding-bottom: 0.4rem;
   }
   .home .contents .sub {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .home .contents .idea {
     height: 12vh;
